@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "etoarmy",
+  "version": "${version}",
+  "name": "Eto Army",
+  "description": "A cinematic NPC display army for Minecraft.",
+  "authors": ["Eto"],
+  "environment": "*",
+  "entrypoints": { "main": ["net.eto.army.EtoArmy"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
